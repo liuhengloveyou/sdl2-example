@@ -26,7 +26,10 @@ include(${CMAKE_SOURCE_DIR}/deps/sdl2.cmake)
 
 set(SOURCES
         ${SOURCE_DIR}/main.cc
+        ${SOURCE_DIR}/play_pcm_audio_by_push.cc
+        ${SOURCE_DIR}/play_pcm_audio_by_pull.cc
 )
+
 
 add_executable(${PROJECT_NAME}
         ${SOURCES}
